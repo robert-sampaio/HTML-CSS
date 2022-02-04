@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #espaço {
+            height: 100vh;
+            background: rgb(58, 159, 253) url(images/espaco.jpg) center no-repeat fixed;
+            background-size: cover;
+            position: relative;
+        }
+
+        #astronauta {
+            width: 472px;
+            height: 71vh;
+            background-position: center center;
+            background-image: url(images/astronauta.png);
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <title>Astronauta no Espaço</title>
+</head>
+<body>
+    <div id="espaço">
+        <div id="astronauta"></div>
+    </div>
+   
+</body>
+</html>
